@@ -1,0 +1,10 @@
+/* pages/pagetime/pagetime.wxss */
+.btn{
+  display:flex
+}
+.btn1{
+  width: 6rem;
+}
+.btn2{
+  width: 6rem;
+}

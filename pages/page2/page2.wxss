@@ -1,0 +1,5 @@
+/* pages/page2/page2.wxss */
+.tip{
+  align-items: center;
+  font-size: 30rpx;
+}

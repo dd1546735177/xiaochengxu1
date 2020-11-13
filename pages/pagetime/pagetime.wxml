@@ -1,0 +1,27 @@
+<!--pages/pagetime/pagetime.wxml-->
+
+<view class="page" data-weui-theme="{{theme}}">
+  <view class="">
+    <view class="weui-form__text-area">
+      <h2 class="weui-form__title">已用时间</h2>
+      <view class="flex-sub text-center">
+        <view class="solid-bottom text-xsl padding">
+          <text class=" text-blue">
+            {{hours}}:{{minute}}:{{second}}
+          </text>
+        </view>
+      </view>
+      <view class="weui-form__desc"></view>
+    </view>
+    <view class="weui-form__opr-area">
+      <view class="btn" style="flex-direction:row">
+        <button class="bg-gradual-purple text-center shadow-blur btn1" bindtap="setInterval">开始
+        </button>
+        <button class="bg-gradual-purple text-center shadow-blur btn2" bindtap="gotoPage">结束
+        </button>
+      </view>
+    </view>
+  </view>
+</view>
+
+

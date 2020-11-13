@@ -1,0 +1,19 @@
+<!--pages/pageend/pageend.wxml-->
+
+<view class="page" data-weui-theme="{{theme}}">
+  <view class="">
+    <text> . </text>
+    <view class="weui-form__text-area section_text">
+      <text class="weui-form__title">使用时间：</text>
+      <label class="weui-form__title">{{h1}}:{{m1}}:{{s1}}</label>
+    </view>
+    <view class="weui-form__text-area ">
+      <text class="weui-form__title">消费金额：</text>
+      <label class="weui-form__title">{{sum}} 元</label>
+    </view>
+    <view class="weui-form__opr-area">
+      <button class="btn bg-gradual-blue padding radius text-center shadow-blur" bindtap="gotoPage">退出
+      </button>
+    </view>
+  </view>
+</view>

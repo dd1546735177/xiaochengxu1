@@ -1,0 +1,27 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/page2/page2",
+    "pages/page3/page3",
+    "pages/pageend/pageend",
+    "pages/pagetime/pagetime",
+    "pages/seat-select/seat-select",
+    "pages/seat-select-w/seat-select-w",
+    "pages/seat-select-zi/seat-select-zi",
+    "pages/seat-select-w-zi/seat-select-w-zi"
+  ],
+  "window": {
+    "backgroundTextStyle": "dark",
+    "navigationBarBackgroundColor": "#4584d1",
+    "navigationBarTitleText": "WashingDog",
+    "navigationBarTextStyle": "black"
+  },
+  "cloud": true,
+  "useExtendedLib": {
+    "weui": true
+  },
+  "usingComponents": {
+    "mp-icon": "/components/icon/icon"
+  },
+  "sitemapLocation": "sitemap.json"
+}

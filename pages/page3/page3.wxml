@@ -1,0 +1,29 @@
+<!--pages/page3/page3.wxml-->
+<view class="container">
+  <view class="view1">
+    <view class="view2">
+      <view class="view3">
+        <button class="btn bg-gradual-blue shadow-blur " data-class="scale-down" role="botton" type="default"
+          bindtap="onShow1">
+          <text class="text1">预约/排队</text>
+        </button>
+      </view>
+    </view>
+  </view>
+  <view class="section_text">
+    <text class="">您选择的澡堂位置为</text>
+  </view>
+  <view class="section_text1">
+    <text class="" bindtap="onShow2">{{zaoTangLocation}}</text>
+  </view>
+  <view class="section_text2">
+    <text class="{{showZaoTangNumber}}">当前可用澡间数：{{zaoTangNumber}}</text>
+  </view>
+  <view>
+    <van-action-sheet show="{{ show }}" actions="{{ actions }}" bind:close="onClose" bind:select="onSelect"
+      description="请选择澡堂位置" />
+  </view>
+  <view class="tip" style="position:fixed; bottom:2rem">
+    <text class="tip">Tip:{{tip}}</text>
+  </view>
+</view>

@@ -1,0 +1,13 @@
+<!--index.wxml-->
+<view class="container">
+  <view class="view1">
+    <view class="view2">
+      <view class="view3">
+        <button class="btn bg-gradual-blue shadow-blur " data-class="scale-down" role="botton" type="default"
+          bindtap="gotoPage">
+          <text class="text1">登录</text>
+        </button>
+      </view>
+    </view>
+  </view>
+</view>

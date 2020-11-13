@@ -1,0 +1,89 @@
+/* pages/page3/page3.wxss */
+
+.btn{
+  width: 8rem;
+  height: 8rem;
+  border-radius: 4rem;
+  display: flex;
+  align-items: center;
+  justify-content: center; 
+}
+.tip{
+  align-items: center;
+  font-size: 40rpx;
+}
+.showNumber{
+  display: inline;
+}
+.hideNumber{
+  display: none;
+}
+.view1{
+  width: 11rem;
+  height:11rem;
+  border-radius: 5.5rem;
+  margin-top: 7rem;
+  display: flex;
+  align-items: center;
+  justify-content: center; 
+  background-color: #83C3FF;
+}
+.view2{
+  width: 10rem;
+  height:10rem;
+  border-radius: 5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center; 
+  background-color: #5994FF;
+}
+.view3{
+  width: 9rem;
+  height:9rem;
+  border-radius: 4.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center; 
+  background-color: #4c57d8;
+}
+.header {
+  position: relative;
+  height:300rpx;
+  background: linear-gradient(to bottom, #56ccf2, #2f80ed);
+}
+
+.bg_ware {
+  position: absolute;
+  left: 0;
+  bottom: -2rpx;
+  width: 100%;
+  mix-blend-mode: screen;
+  height: 120rpx;
+}
+
+.section_text {
+  position: fixed;
+  text-align: center;
+  font-size: 40rpx;
+  bottom: 420rpx;
+  left: 0;
+  right: 0;
+}
+
+.section_text1 {
+  position: fixed;
+  text-align: center;
+  font-size: 40rpx;
+  bottom: 370rpx;
+  left: 0;
+  right: 0;
+}
+
+.section_text2 {
+  position: fixed;
+  text-align: center;
+  font-size: 40rpx;
+  bottom: 320rpx;
+  left: 0;
+  right: 0;
+}

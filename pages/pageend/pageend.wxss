@@ -1,0 +1,28 @@
+/* pages/pageend/pageend.wxss */
+
+.btn {
+  margin-top: 12rem;
+  display: flex;
+  height: 140rpx;
+  line-height: 140rpx;
+  width: 340rpx;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.section_text {
+  position: fixed;
+  text-align: center;
+  margin-top: 2rem;
+  left: 0;
+  right: 0;
+}
+
+.section_text1 {
+  position: fixed;
+  text-align: center;
+  margin-top: 5rem;
+  left: 0;
+  right: 0;
+}

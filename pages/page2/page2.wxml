@@ -1,0 +1,29 @@
+<!--pages/page2/page2.wxml-->
+<form bindsubmit="formSubmit">
+  <view class="Page">
+    <view class="Page_bd">
+      <view class="weui-cells weui-cells_after-title">
+        <view class="weui-cell weui-cell_active">
+          <view class="weui-cell__hd">
+            <view class="weui-label">学号</view>
+          </view>
+          <view class="weui-cell__bd">
+            <input class="weui-input" name="inputStudent" type="number" placeholder="测试学号为20181160" />
+          </view>
+        </view>
+        <view class="weui-cell weui-cell_active">
+          <view class="weui-cell__hd">
+            <view class="weui-label">密码</view>
+          </view>
+          <view class="weui-cell__bd">
+            <input class="weui-input" name='inputPassword' type="password" placeholder="密码为111111（6个1）" />
+          </view>
+        </view>
+      </view>
+      <view class="margin-tb-sm text-center">
+        <button class="cu-btn bg-white lg shadow" formType="submit" bindtap="">登录</button>
+      </view>
+      
+    </view>
+  </view>
+</form>
